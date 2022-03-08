@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-image: url('imagens/wallpaper002.jpg') ;
-            background-position: center;
-            background-repeat: no-repeat;
+            /* background-image: url('imagens/wallpaper002.jpg');
+            background-position: center center;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+        */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
+
         main {
             background-image: url('imagens/wallpaper005.jpg');
-            width: 400px;
+            max-width: 400px;
             border: 1px solid darkblue;
             padding: 10px;
             margin: auto;
@@ -23,10 +32,29 @@
         }
     </style>
 </head>
+
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab odit ad ratione commodi quidem, repellat ipsam culpa nobis expedita itaque nostrum quis earum praesentium, officia totam magni, voluptate deserunt quisquam. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto suscipit nobis adipisci eius exercitationem magnam odit animi est dolore, voluptas natus. Recusandae inventore incidunt iure sapiente tempora? Fugiat, excepturi tenetur. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit repellendus unde consequatur fugit ipsam illum, dolorem delectus nobis eligendi impedit eum obcaecati aut voluptatem rerum doloribus officiis tempore expedita.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab odit ad ratione commodi quidem, repellat ipsam
+            culpa nobis expedita itaque nostrum quis earum praesentium, officia totam magni, voluptate deserunt
+            quisquam. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto suscipit nobis adipisci eius
+            exercitationem magnam odit animi est dolore, voluptas natus. Recusandae inventore incidunt iure sapiente
+            tempora? Fugiat, excepturi tenetur. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            velit repellendus unde consequatur fugit ipsam illum, dolorem delectus nobis eligendi impedit eum obcaecati
+            aut voluptatem rerum doloribus officiis tempore expedita.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iusto dolore molestiae temporibus tempore
+            quia eius, voluptas odit nulla sit dolores repellendus velit fugit asperiores vero porro possimus aspernatur
+            quaerat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem enim, minima at similique voluptas
+            aperiam nam inventore laborum voluptate magnam ex distinctio incidunt ipsa repudiandae asperiores neque odit
+            ratione. Similique. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, culpa dicta,
+            perspiciatis eveniet, asperiores minus explicabo omnis deleniti quibusdam mollitia repellendus commodi
+            provident? Sunt quis sapiente, impedit veritatis quaerat saepe. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Ipsam, ducimus quisquam harum delectus corrupti saepe maxime aspernatur distinctio
+            molestias non, nam facere? Libero dolore cum molestias sed, quis autem quam. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Iste quaerat veritatis itaque numquam architecto quisquam quibusdam
+            repudiandae ipsa. Quo quis pariatur totam? Magnam sint, facere sed optio quia consequuntur explicabo.</p>
     </main>
 </body>
+
 </html>
