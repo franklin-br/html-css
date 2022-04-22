@@ -76,7 +76,8 @@ section.imagem {
 }
 
 .imagem {
-
+    left: 100%;
+    top: 100%;
     font-family: var(--font3);
     color: white;
     background-color: rgb(211, 198, 198);
