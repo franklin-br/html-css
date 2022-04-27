@@ -62,11 +62,20 @@ section {
     font-size: 40px;
 }
 
-section.imagem {
+#img {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
+    background-position: height center;
     transform: translate(-50% -50%);
+    color: white;
 }
+
+.imagem>p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(87, 87, 87, 0.479)
+}
+
 
 
 .normal {
@@ -83,11 +92,22 @@ section.imagem {
     background-color: rgb(211, 198, 198);
     background-image: url('../imagens/background001.jpg');
     background-attachment: fixed;
-    text-decoration: rgba(83, 83, 83, 0.432);
+    text-decoration: rgba(83, 83, 83, 0.589);
 }
 
 .imagem2 {
     background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    font-family: var(--font3);
+    color: white;
+
+}
+
+.imagem2>p {
+    display: inline-block;
+    background-color: rgba(22, 20, 20, 0.521);
+    padding: 5px;
+    background-position: h;
 }
 
 footer {
